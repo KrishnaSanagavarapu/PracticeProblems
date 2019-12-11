@@ -1,6 +1,8 @@
 
 Angular Notes // Codeevolution,kudvenkat, youtube
 
+Topic 1
+
 Modules - ang application is a collection of modules
 
 modules consist of component and services
@@ -22,7 +24,7 @@ app comp - root
 
 we will kick start the app modules in main.ts
 
-
+Topic 2
 
 main building blocks of an Angular Application.
 
@@ -36,12 +38,20 @@ main building blocks of an Angular Application.
 8. Dependency Injection
 
 
+Topic 3
+
 3 ways to specify the selector to HTML
 
+Selector
+Declaration is of three types
+https://blog.knoldus.com/different-types-of-component-selectors-in-angular/
 
 
 templateURl and template - we can write the code
 	back tickets and write all html code
+
+
+Topic 4
 
 // angular templates - event binding , property binding
 
@@ -79,6 +89,8 @@ $0.value
 
 
 attribute vs property vs property binding vs event binding vs attribute binding vs interpolation
+vs decorator
+vs providers
 
 
 attributes - html - values cannot change
@@ -104,11 +116,6 @@ this will verify for all the classes
 it will dynamical y add or remove
 
 ** Style Binding
-
-
-Selector
-Declaration is of three types
-
 
 
 
