@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html>
+    <body>
+        
+        <h1>
+            this is the heading
+        </h1>
+
+        <p>
+            this is the paragraph
+        </p>
+<p id = "demo"></p>
+        <script>
+        
+        var person = {
+            firstName : "Krishna",
+            lastName : "S",
+            age : 26,
+            fullName : function() {
+                return this.firstName+this.lastName;
+            }
+        }
+        document.getElementById("demo").innerHTML = person.fullName();
+        </script>
+    </body>
+</html>

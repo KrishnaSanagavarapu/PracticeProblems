@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {         // tsc --init
+    "target": "es5",              // specify the version of js to be complied            
+    "module": "commonjs",    //require- commonjs,systemjs,              
+    "strict": true,          
+    "esModuleInterop": true,
+    "outDir": "dist"                 
+   }
+}
+
+// tsc --outDir dist
+//tsc -watch
+
+//basic webpack configuration 
+//webpack.config.json

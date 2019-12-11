@@ -1,0 +1,158 @@
+java identifiers are case sensitive
+
+java language is case sensitive
+
+there is no length limit for java identifiers
+
+not recommnded to take 
+
+
+class Test{
+public static void main (String args[])
+{
+System.out.
+}
+
+
+int x=10;  valid statement
+
+int if =10; this is invalid - this is reserved word or identifiers
+
+we cant use reserved words as identifiers 
+
+class Test{
+    public static void main (String args[])
+    {
+        int String = 888; // this is predefined class name 
+        System.out.println(String);
+    }
+}
+
+runnable - is predefined interface name
+
+int String = 888;
+System.out.println(String);
+
+all java interface and predefined words can be used as identifiers 
+but this is one of the worste programming practice
+
+all predefined java class names and interface names we can use as identifiers
+
+it is not good programming practice,because it reduces readabilty and creates confusion
+
+
+only allowed characters in java identifiers is alphabelts,digits, dolla and underscore
+
+identifiers should not start with digit
+
+identifiers are case sensitive
+
+Which of the following are valid java identifiers?
+
+a small quiz
+
+
+* Reserved Words
+
+53 Reserved words are there in java
+
+50 keywords
+3 reserved literals (true,false,null)
+
+used keywords 48 
+
+un-used keywords 2 (goto,const)
+
+Keywords for datatypes 8 
+
+byte 
+short 
+int
+long
+float
+double
+boolean
+char
+
+keywords for flow control 11 
+
+if 
+else
+switch
+case
+default
+while
+do
+for
+break 
+continue
+return
+
+Keywords for modifiers 12
+
+public
+private
+protected
+static
+final
+abstract
+synchronized
+native
+strictfp(1.2v)
+transient
+volatile
++default
+
+Keywords for exception handling 6 
+
+try
+catch
+finally
+throws
+assert(1.4V)
+
+Class related keywords 6
+
+class
+interface
+extends
+implements
+package
+import
+
+Object related keywords 4
+
+new
+instanceof
+super
+this
+
+delete keyword is not there in java
+
+void return type keyword 1
+
+* in java return type is mandatory
+
+if a method wont return anything, we have to declare that method with void return type
+
+But in C language , return type is optional and int is the default type
+
+un-used keywords 
+
+goto - usage of goto created several problems in old languages and hence sun MS banned this keyword
+const - use final instead of const
+
+goto and const are un-used keywords - if we are using it will create compile time error.
+
+Reserved literal
+
+true/false values for boolean type
+null default value for object reference
+
+
+
+
+
+
+
+

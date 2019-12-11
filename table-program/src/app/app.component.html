@@ -1,0 +1,47 @@
+<router-outlet></router-outlet>
+<h1>{{ title }}</h1>
+
+<div *ngFor = 'let employee of employee$' style="text-align: center">
+<h1 class ="emp-name">
+
+  {{ employee.firstName }}<br>
+  {{ employee.employeeId }} <br>
+  {{ employee.lastName}}</h1>
+
+
+</div>
+
+
+<table mat-table [dataSource] = "employeeDataSource">
+
+  <!--- Note that these columns can be defined in any order.
+        The actual rendered columns are set as a property on the row definition" -->
+
+  <!-- Position Column -->
+  <ng-container matColumnDef="firstName">
+    <th mat-header-cell *matHeaderCellDef> No. </th>
+    <td mat-cell *matCellDef="let employee"> {{employee.firstName }} </td>
+  </ng-container>
+
+  <!-- Name Column -->
+  <ng-container matColumnDef="employeeId">
+    <th mat-header-cell *matHeaderCellDef> Name </th>
+    <td mat-cell *matCellDef="let employee"> {{ employee.employeeId  }} </td>
+  </ng-container>
+
+  <!-- Weight Column -->
+  <ng-container matColumnDef="lastName">
+    <th mat-header-cell *matHeaderCellDef> Weight </th>
+    <td mat-cell *matCellDef="let employee"> {{employee.lastName}} </td>
+  </ng-container>
+
+  <!-- Symbol Column -->
+  <ng-container matColumnDef="fieldEmployee">
+    <th mat-header-cell *matHeaderCellDef> Symbol </th>
+    <td mat-cell *matCellDef="let employee"> {{employee.fieldEmployee}} </td>
+  </ng-container>
+
+  <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+  <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+</table>
+
