@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'Krishna Sanagavarapu Test Component';
+  title = 'Selector Types';
+  description = ' There are 3 types of seelection declaration.'
 }
