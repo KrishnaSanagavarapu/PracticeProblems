@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Selector Types';
-  description = ' There are 3 types of seelection declaration.'
+  description = ' There are 3 types of selector declaration.';
 }
