@@ -1,0 +1,131 @@
+
+Angular Notes // Codeevolution,kudvenkat, youtube
+
+Topic 1
+
+Modules - ang application is a collection of modules
+
+modules consist of component and services
+
+Angular components are a subset of directives, always associated with a template.
+
+root component, app component
+
+architecture -> one or more modules
+modules -> one or more components
+module- can also have services
+
+
+package.json - dev dependencies
+
+main.ts -> entry pont to angular application
+
+app comp - root
+
+we will kick start the app modules in main.ts
+
+Topic 2
+
+main building blocks of an Angular Application.
+
+1. Modules
+2. Components
+3. Templates
+4. Metadata
+5. Data binding
+6. Directives
+7. Services
+8. Dependency Injection
+
+
+Topic 3
+
+3 ways to specify the selector to HTML
+
+Selector
+Declaration is of three types
+https://blog.knoldus.com/different-types-of-component-selectors-in-angular/
+
+
+templateURl and template - we can write the code
+	back tickets and write all html code
+
+
+Topic 4
+
+// angular templates - event binding , property binding
+
+Angular interpolation
+
+to make dynamic data -
+create. a new property to class and assign the data
+
+{{ name }}
+
+simplest way to bind data from class to template
+
+->  expressions that are used in the interpolation
+-> string concatenation “welcome”+hello
+ -> Using js properties  name.length
+-> methods can be used in the interpolation  name.uppercase
+-> methods defined in components
+
+things that cannot do
+
+assign expression to results variable
+access to global variables  - windows.location.href
+public siteUrl = window.location.href;
+{{ siteUrl}}
+
+
+
+** Property Binding in Angular
+
+what is the diff html attribute and DOM element
+
+
+$0.getAttribute(‘value’)
+$0.value
+
+
+attribute vs property vs property binding vs event binding vs attribute binding vs interpolation
+vs decorator
+vs providers
+
+
+attributes - html - values cannot change
+properties - DOM - values can change
+
+limitation to interpolation - it can only work for string , not for boolean
+for this solution, we need to do property binding
+
+[ ].  [bind-disabled]
+
+
+** Class binding
+
+we have to use one or other, not both of them. class , [class]
+
+what if we need to apply with multiple classes
+
+ng class Directives - custom HTML attribute that Angular provides
+
+[ngClass] =  “messsageClasses”
+this will verify for all the classes
+
+it will dynamical y add or remove
+
+** Style Binding
+
+
+
+
+
+
+
+
+
+
+
+
+
