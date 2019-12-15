@@ -13,7 +13,8 @@ import { FormsModule } from "@angular/forms";
 import { NgifComponent } from './ngif/ngif.component';
 import { NgswitchComponent } from './ngswitch/ngswitch.component';
 import { NgforComponent } from './ngfor/ngfor.component';
-import { ComponenetInteractionComponent } from './componenet-interaction/componenet-interaction.component'
+import { ComponenetInteractionComponent } from './componenet-interaction/componenet-interaction.component';
+import { PipessComponent } from './pipess/pipess.component'
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { ComponenetInteractionComponent } from './componenet-interaction/compone
     NgifComponent,
     NgswitchComponent,
     NgforComponent,
-    ComponenetInteractionComponent
+    ComponenetInteractionComponent,
+    PipessComponent
   ],
   imports: [
     BrowserModule,
