@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'interpolation';
+  public name:  string = 'krishna- This is parent data';
+  public message: string ="";
 }

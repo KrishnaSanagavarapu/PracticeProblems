@@ -8,4 +8,5 @@
 <!-- <app-two-way-binding></app-two-way-binding> -->
 <!-- <app-ngif></app-ngif> -->
 <!-- <app-ngswitch></app-ngswitch> -->
-<app-ngfor></app-ngfor>
+<!-- <app-ngfor></app-ngfor> -->
+<app-componenet-interaction (childEvent)="message=$event" [parentData]= "name"></app-componenet-interaction>{{message}}
