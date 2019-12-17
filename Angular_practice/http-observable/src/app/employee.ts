@@ -1,5 +1,9 @@
 export interface IEmployee {
-    id: number,
-    name: string,
-    age: number
+    employeeId: number;
+    firstName: string;
+    lastName: string;
+    employeeStatus: string;
+    storeEmployee: boolean;
+    shopEmployee: boolean;
+    fieldEmployee: boolean;
 }

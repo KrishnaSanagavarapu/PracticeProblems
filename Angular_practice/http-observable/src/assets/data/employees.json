@@ -1,7 +1,92 @@
 [
-    {"id": 1, "name": "Andrew", "age": 30},
-    {"id": 2, "name": "Brandon", "age": 25},
-    {"id": 3, "name": "Christina", "age": 26},
-    {"id": 4, "name": "Elena", "age": 28},
-    {"id": 5, "name": "Felicia", "age": 25}    
+  {
+    "employeeId": 667783,
+    "firstName": "LAUREN",
+    "lastName": "LEE",
+    "employeeStatus": "ACTIVE",
+    "storeEmployee": false,
+    "shopEmployee": true,
+    "fieldEmployee": true
+  },
+  {
+    "employeeId": 570127,
+    "firstName": "HEATHER",
+    "lastName": "CRAMER",
+    "employeeStatus": "ACTIVE",
+    "storeEmployee": false,
+    "shopEmployee": true,
+    "fieldEmployee": true
+  },
+  {
+    "employeeId": 255521,
+    "firstName": "AUTUMN",
+    "lastName": "RADONICH",
+    "employeeStatus": "ACTIVE",
+    "storeEmployee": false,
+    "shopEmployee": true,
+    "fieldEmployee": true
+  },
+  {
+    "employeeId": 744757,
+    "firstName": "TAYLOR",
+    "lastName": "SROKA",
+    "employeeStatus": "ACTIVE",
+    "storeEmployee": false,
+    "shopEmployee": true,
+    "fieldEmployee": true
+  },
+  {
+    "employeeId": 13538307,
+    "firstName": "ELIZABETH",
+    "lastName": "BELTZ",
+    "employeeStatus": "ACTIVE",
+    "storeEmployee": false,
+    "shopEmployee": true,
+    "fieldEmployee": true
+  },
+  {
+    "employeeId": 13538446,
+    "firstName": "MICHAEL",
+    "lastName": "MARRA",
+    "employeeStatus": "ACTIVE",
+    "storeEmployee": false,
+    "shopEmployee": true,
+    "fieldEmployee": true
+  },
+  {
+    "employeeId": 13540565,
+    "firstName": "NICOL",
+    "lastName": "LOGAN",
+    "employeeStatus": "ACTIVE",
+    "storeEmployee": false,
+    "shopEmployee": true,
+    "fieldEmployee": true
+  },
+  {
+    "employeeId": 13503573,
+    "firstName": "GREGORY",
+    "lastName": "JOHANNES",
+    "employeeStatus": "ACTIVE",
+    "storeEmployee": false,
+    "shopEmployee": true,
+    "fieldEmployee": true
+  },
+  {
+    "employeeId": 13536864,
+    "firstName": "SAMANTHA",
+    "lastName": "BOWER",
+    "employeeStatus": "ACTIVE",
+    "storeEmployee": false,
+    "shopEmployee": true,
+    "fieldEmployee": true
+  },
+  {
+    "employeeId": 301257,
+    "firstName": "CHRISTOPHER",
+    "lastName": "ENDICOTT",
+    "employeeStatus": "ACTIVE",
+    "storeEmployee": false,
+    "shopEmployee": true,
+    "fieldEmployee": true
+  }
 ]
