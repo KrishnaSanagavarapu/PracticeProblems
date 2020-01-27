@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Employee } from './emp.model';
 import { EmployeeService } from './emp.service';
-import { MatSort, MatTableDataSource, Sort } from '@angular/material';
+import { MatTableDataSource } from '@angular/material';
 
 @Component({
   selector: 'app-root',
@@ -14,10 +14,10 @@ export class AppComponent implements OnInit{
   employeeDataSource: MatTableDataSource<Employee>;
   displayedColumns: string[] = ['firstName', 'employeeId', 'lastName', 'fieldEmployee'];
 
-
   constructor(private employeeService: EmployeeService) { }
 
   ngOnInit() {
     return this.employeeService.getEmp().subscribe(data => this.employee$ = data);
+    console.log(this.employee$);
   }
 }
