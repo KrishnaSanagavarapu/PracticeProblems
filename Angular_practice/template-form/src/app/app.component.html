@@ -1,0 +1,84 @@
+<router-outlet></router-outlet>
+<div class="container-fluid">
+
+  <h1>Form</h1>
+
+
+  <form [formGroup]="genericShippingForm">
+      <div [formGroup]="destination">
+
+                          <div class="form-group">
+                            <label>address 1</label>
+                            <input type="text" [formControl]="address1" class="form-control">
+                          </div>
+
+                          <div class="form-group">
+                            <label>address 2</label>
+                            <input type="text" [formControl]="address2" class="form-control">
+                          </div>
+
+                          <div class="form-group">
+                            <label>City</label>
+                            <input type="password" [formControl]="city" class="form-control">
+                          </div>
+
+                          <div class="form-group">
+                            <label>State</label>
+                            <div>
+                              <select class="custom-select" [formControl]="state">
+                                <option value="default">Please Select a State</option>
+                                <option *ngFor="let state of states" value="{{state}}">{{ state }}</option>
+                              </select>
+                            </div>
+                          </div>
+
+                          <div class="form-group">
+                            <label>Country</label>
+                            <select class="custom-select">
+                              <option value="default">Please Select Country</option>
+                              <option>USA</option>
+                              <option>Cannada</option>
+                            </select>
+                          </div>
+
+                          <div class="form-group">
+                            <label>Zip Code</label>
+                            <input type="text" [formControl]="zipCode" class="form-control">
+                          </div>
+
+                          <div class="form-group">
+                            <label>Contact Name</label>
+                            <input type="text" [formControl]="contactName" class="form-control">
+                          </div>
+
+                          <div class="form-group">
+                            <label>Phone Number</label>
+                            <input type="text" [formControl]="phone" class="form-control">
+                          </div>
+
+    </div>
+
+      <div class="form-group">
+        <label>Weight</label>
+        <input type="text" class="form-control" [formControl]="weight">
+      </div>
+
+      <div class="form-group">
+        <label>Value</label>
+        <input type="text" class="form-control" [formControl]="value">
+      </div>
+
+      <div class="form-group">
+        <label>No Of jewelry Pieces</label>
+        <input type="text" class="form-control" [formControl]="noOfJewelryPieces">
+      </div>
+
+    <button class="btn btn-primary" (click)="submitForm()">Click Me!</button>
+
+  </form>
+
+  <button printSectionId="printMe" useExistingCss="true" ngxPrint #printBtn class="hidden">Print</button>
+
+</div>
+
+<app-shipment-printout  id="printMe" [shipData]="genericShipmentData"></app-shipment-printout>

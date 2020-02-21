@@ -1,0 +1,46 @@
+
+@media print, screen {
+  .hidden {
+    display: none;
+  }
+
+  .print-shipment-label-container,
+  .print-shipment-content-container {
+    page-break-after: always;
+  }
+
+  .print-shipment-content-container__left {
+    display: inline-block;
+    width: 50%;
+  }
+
+  .print-shipment-content-container__right {
+    display: inline-block;
+    width: 50%;
+    padding-right: 20px;
+  }
+
+  .print-shipment-content-container__label {
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+  }
+
+  .print-shipment-content-container__value {
+    display: inline-block;
+    width: 50%;
+    text-align: right;
+  }
+
+  .print-shipment-content-container__title {
+    font-weight: bold;
+  }
+
+  .print-shipment-content-container__jewlery {
+    text-align: center;
+    label {
+      font-weight: bold;
+      margin-right: 10px;
+    }
+  }
+}

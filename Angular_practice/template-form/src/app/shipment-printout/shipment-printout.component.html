@@ -1,0 +1,56 @@
+<div class="generic-shipping-component">
+  <div class="generic-shipment-print-container hidden" id="jobsPrintSection" *ngIf="genericShipmentData">
+      <div class="generic-shipping-component">
+        <div class="print-shipment-label-container">
+          <img src="{{ genericShipmentData.review.imageData }}" />
+        </div>
+
+        <div class="print-shipment-content-container">
+          <div class="print-shipment-content-container__left">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div class="print-shipment-content-container__title">Ship To</div>
+            <div>{{ genericShipmentData.shippingDestination.contactName }}</div>
+            <div>{{ genericShipmentData.shippingDestination.address1 }}</div>
+            <div>{{ genericShipmentData.shippingDestination.address2 }}</div>
+            <div>{{ genericShipmentData.shippingDestination.city }}, {{ genericShipmentData.shippingDestination.state }}
+              {{ genericShipmentData.shippingDestination.zipCode }}</div>
+          </div>
+          <div class="print-shipment-content-container__right">
+            <div>
+              <label class="print-shipment-content-container__label">Invoice Number</label>
+              <label class="print-shipment-content-container__value">0</label>
+            </div>
+            <div>
+              <label class="print-shipment-content-container__label">Tracking Number</label>
+              <label class="print-shipment-content-container__value">{{ genericShipmentData.review.trackingNo }}</label>
+            </div>
+            <!-- <div>
+              <label class="print-shipment-content-container__label">Service Level</label>
+              <label class="print-shipment-content-container__value">{{ carrierService.sterlingLevel.description }}</label>
+            </div>
+            <div>
+              <label class="print-shipment-content-container__label">Shipper Service Level</label>
+              <label class="print-shipment-content-container__value">{{ carrierService.carrierLevel.description }}</label>
+            </div>
+            <div>
+              <label class="print-shipment-content-container__label">Saturday Delivery</label>
+              <label
+                class="print-shipment-content-container__value">{{ carrierService.carrierLevel.saturdayDelivery === true ? "Yes" : "No" }}</label>
+            </div> -->
+            <div>
+              <label class="print-shipment-content-container__label">Label Generated</label>
+              <label class="print-shipment-content-container__value">Yes</label>
+            </div>
+          </div>
+          <hr />
+          <div class="print-shipment-content-container__jewlery">
+            <label>No of Jewlery Pieces</label>
+            {{ genericShipmentData.noOfJewelryPieces }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
